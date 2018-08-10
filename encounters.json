@@ -1,0 +1,156 @@
+{
+  "encounters": [
+    {
+      "name": "food_barrels",
+      "description": "You enter a storage room filled with untouched barrels",
+      "tags": [
+        "food",
+        "neutral"
+      ],
+      "item_tags": {"item":"none","desc":"","reward":"nothing"},
+
+      "options": [
+        {
+          "description": "Search the barrels",
+          "tags": [
+            "neutral"
+          ],
+          "check": "None",
+          "check_num": 1,
+
+          "reward": {
+            "rations": "You search the barrels and find some edible food and water."},
+          "failure": {
+            "nothing": "The barrels leak poison everywhere when opened!"}
+        },
+        {
+          "description": "Leave the barrels",
+          "tags": [
+            "neutral"
+          ],
+          "check": "None",
+          "check_num": 1,
+
+          "reward": {
+            "rations": "You walk away from the barrels and deeper into the catacombs."},
+          "failure": {
+            "nothing": "You walk away from the barrels and deeper into the catacombs."}
+        }
+      ]
+    },
+    {
+      "name": "poison_barrels",
+      "description": "You enter a storage room filled with barrels, a faint smell of cinnamon is in the air",
+      "tags": [
+        "food",
+        "neutral"
+      ],
+      "item_tags": {"nothing":"None"},
+
+      "options": [
+        {
+          "description": "Search the barrels",
+          "tags": [
+            "neutral"
+          ],
+          "check": "None",
+          "check_num": 1,
+
+          "reward": {
+            "rations": "You search the barrels and find some edible food and water."},
+          "failure": {
+            "nothing": "The barrels leak poison everywhere when opened!"}
+        },
+        {
+          "description": "Leave the barrels",
+          "tags": [
+            "neutral"
+          ],
+          "check": "None",
+          "check_num": 1,
+
+          "reward": {
+            "rations": "You walk away from the barrels and deeper into the catacombs."},
+          "failure": {
+            "nothing": "You walk away from the barrels and deeper into the catacombs."}
+        }
+      ]
+    },
+    {
+      "name": "poetry_chamber",
+      "description": "Stale air greets you as you open the door to a large, empty chamber. The walls are covered in pictures and writings.",
+      "tags": [
+        "food",
+        "neutral"
+      ],
+      "item_tags":{"item":"none","desc":"","reward":"nothing"},
+
+      "options": [
+        {
+          "description": "Search the chamber",
+          "tags": [
+            "neutral"
+          ],
+          "check": "intelligence",
+          "check_num": 1,
+
+          "reward": {
+            "charisma": "You recognise the language and are able to decipher some of the ancient poetry. Whilst bleak, it would impress many."},
+          "failure": {
+            "nothing": "The writings make no sense to you, so you carry on deeper into the catacombs"}
+        },
+        {
+          "description": "Continue onwards",
+          "tags": [
+            "neutral"
+          ],
+          "check": "None",
+          "check_num": 1,
+
+          "reward": {
+            "rations": "You walk deeper into the catacombs."},
+          "failure": {
+            "nothing": "You walk deeper into the catacombs."}
+        }
+      ]
+    },
+    {
+      "name": "dark_chamber",
+      "description": "As you walk into the chamber, the door locks behind you, leaving you in complete darkness.",
+      "tags": [
+        "no_light",
+        "neutral"
+      ],
+      "item_tags": {"item":"light","desc":"You use the light to navigate safely through the darkened chamber","reward":"nothing"},
+
+      "options": [
+        {
+          "description": "Grope blindly for the exit",
+          "tags": [
+            "neutral"
+          ],
+          "check": "dexterity",
+          "check_num": 1,
+
+          "reward": {
+            "nothing": "As you stumble in the dark towards the exit, you just manage to avoid a nasty drop."},
+          "failure": {
+            "damage": "As you stumble in the dark towards the exit, you take a fall down an unseen pit, hurting yourself in the process. The bottom of the pit has a door off it that you go through."}
+        },
+        {
+          "description": "Try to locate a switch",
+          "tags": [
+            "neutral"
+          ],
+          "check": "intelligence",
+          "check_num": 2,
+
+          "reward": {
+            "nothing": "You grope for a switch or lever that might give some light - you eventually find one that opens a shaft to the previous chamber, allow you to navigate the room safely."},
+          "failure": {
+            "damage": "As you grope for a switch or lever, you take a fall down an unseen pit, hurting yourself in the process. The bottom of the pit has a door off it that you go through."}
+        }
+      ]
+    }
+    ]
+}

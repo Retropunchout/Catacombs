@@ -1,0 +1,385 @@
+{
+  "items": [
+ {
+   "name": "Dagger",
+   "item_type": "weapon",
+   "tags": ["pierce"],
+   "depth": 1,
+   "dmg": 1,
+   "crit_chance": 10,
+   "armour": 0
+ },
+ {
+   "name": "Stilletto",
+   "item_type": "weapon",
+   "tags": ["pierce"],
+   "depth": 2,
+   "dmg": 3,
+   "crit_chance": 15,
+   "armour": 0,
+   "dex_mod": 2
+ },
+ {
+   "name": "Rapier",
+   "item_type": "weapon",
+   "tags": ["pierce"],
+   "depth": 3,
+   "dmg": 4,
+   "crit_chance": 20,
+   "armour": 0,
+   "dex_mod": 2
+ },
+ {
+   "name": "Short Sword",
+   "item_type": "weapon",
+   "tags": ["slash"],
+   "depth": 1,
+   "dmg": 1,
+   "crit_chance": 5,
+   "armour": 0
+ },
+ {
+   "name": "Long Sword",
+   "item_type": "weapon",
+   "tags": ["slash"],
+   "depth": 2,
+   "dmg": 2,
+   "crit_chance": 5,
+   "armour": 0
+ },
+ {
+   "name": "Axe",
+   "item_type": "weapon",
+   "tags": ["slash"],
+   "depth": 2,
+   "dmg": 2,
+   "crit_chance": 5,
+   "armour": 0
+ },
+ {
+   "name": "Sythe",
+   "item_type": "weapon",
+   "tags": ["slash"],
+   "depth": 3,
+   "dmg": 3,
+   "crit_chance": 10,
+   "armour": 0
+ },
+ {
+   "name": "Battle Axe",
+   "item_type": "weapon",
+   "tags": ["slash", "heavy"],
+   "depth": 4,
+   "dmg": 5,
+   "crit_chance": 10,
+   "armour": 0,
+   "dex_mod": -2
+ },
+ {
+   "name": "Spear",
+   "item_type": "weapon",
+   "tags": ["pierce", "reach"],
+   "depth": 2,
+   "dmg": 3,
+   "crit_chance": 10,
+   "armour": 0
+ },
+ {
+   "name": "Club",
+   "item_type": "weapon",
+   "tags": ["blunt"],
+   "depth": 1,
+   "dmg": 1,
+   "crit_chance": -5,
+   "armour": 0
+ },
+ {
+   "name": "Mace",
+   "item_type": "weapon",
+   "tags": ["blunt","heavy"],
+   "depth": 2,
+   "dmg": 3,
+   "crit_chance": 0,
+   "armour": 0
+ },
+ {
+   "name": "Flail",
+   "item_type": "weapon",
+   "tags": ["blunt","heavy"],
+   "depth": 3,
+   "dmg": 4,
+   "crit_chance": 5,
+   "armour": 0,
+   "dex_mod": -1
+ },
+ {
+   "name": "Robe",
+   "item_type": "armour",
+   "tags": ["light"],
+   "depth": 1,
+   "dmg": 0,
+   "armour": 1,
+   "dex_mod": 1
+ },
+ {
+   "name": "Dragon Skin Robe",
+   "item_type": "armour",
+   "tags": ["light"],
+   "depth": 5,
+   "dmg": 0,
+   "crit_chance": 0,
+   "armour": 4,
+   "dex_mod": 3,
+   "int_mod": 1
+ },
+ {
+   "name": "Leather Armour",
+   "item_type": "armour",
+   "tags": [""],
+   "depth": 1,
+   "dmg": 0,
+   "armour": 1
+ },
+ {
+   "name": "Hardened Leather Armour",
+   "item_type": "armour",
+   "tags": [""],
+   "depth": 2,
+   "dmg": 0,
+   "armour": 2
+ },
+ {
+   "name": "Chain Mail ",
+   "item_type": "armour",
+   "tags": [""],
+   "depth": 3,
+   "dmg": 0,
+   "armour": 3,
+   "dex_mod": -1
+ },
+ {
+   "name": "Plate Mail",
+   "item_type": "armour",
+   "tags": ["heavy"],
+   "depth": 4,
+   "dmg": 0,
+   "armour": 5,
+   "dex_mod": -2
+ },
+ {
+   "name": "Scale Mail",
+   "item_type": "armour",
+   "tags": ["heavy"],
+   "depth": 4,
+   "dmg": 0,
+   "armour": 6,
+   "dex_mod": -3
+ },
+ {
+   "name": "Golem Mail",
+   "item_type": "armour",
+   "tags": ["heavy"],
+   "depth": 5,
+   "dmg": 0,
+   "crit_chance": -5,
+   "armour": 8,
+   "dex_mod": -4,
+   "int_mod": -1
+ },
+ {
+   "name": "Torch",
+   "item_type": "utility",
+   "tags": ["light"],
+   "depth": 1,
+   "dmg": 0,
+   "armour": 0
+ },
+ {
+   "name": "Candle",
+   "item_type": "utility",
+   "tags": ["ceremony","light"],
+   "depth": 1,
+   "dmg": 0,
+   "armour": 0
+ },
+ {
+   "name": "Rope",
+   "item_type": "utility",
+   "tags": ["rope"],
+   "depth": 1,
+   "dmg": 0,
+   "armour": 0
+ },
+ {
+   "name": "Lockpick",
+   "item_type": "utility",
+   "tags": ["lockpick"],
+   "depth": 3,
+   "dmg": 0,
+   "armour": 0
+ },
+ {
+   "name": "Ceremonial Blade",
+   "item_type": "utility",
+   "tags": ["blood_ceremony"],
+   "depth": 4,
+   "dmg": 0,
+   "armour": 0
+ },
+ {
+   "name": "Amulet of Intelligence",
+   "item_type": "amulet",
+   "tags": ["magic"],
+   "depth": 3,
+   "dmg": 0,
+   "armour": 0,
+   "int_mod": 2
+ },
+ {
+   "name": "Amulet of Strength",
+   "item_type": "amulet",
+   "tags": ["magic"],
+   "depth": 3,
+   "dmg": 0,
+   "armour": 0,
+   "str_mod": 2
+ },
+ {
+   "name": "Amulet of Dexterity",
+   "item_type": "amulet",
+   "tags": ["magic"],
+   "depth": 3,
+   "dmg": 0,
+   "armour": 0,
+   "dex_mod": 2
+ },
+ {
+   "name": "Amulet of Kings",
+   "item_type": "amulet",
+   "tags": ["magic"],
+   "depth": 4,
+   "dmg": 0,
+   "armour": 0,
+   "dex_mod": 1,
+   "int_mod": 1,
+   "str_mod": 1
+ },
+ {
+   "name": "Amulet of Precision",
+   "item_type": "amulet",
+   "tags": ["magic"],
+   "depth": 4,
+   "dmg": 0,
+   "crit_chance": 20,
+   "armour": 0,
+   "dex_mod": 0,
+   "int_mod": 0,
+   "str_mod": 0
+ },
+ {
+   "name": "Amulet of Hatred",
+   "item_type": "amulet",
+   "tags": ["magic"],
+   "depth": 4,
+   "dmg": 3,
+   "armour": 0,
+   "dex_mod": -1,
+   "int_mod": -1,
+   "str_mod": -1
+ },
+ {
+   "name": "Amulet of Ignorance",
+   "item_type": "amulet",
+   "tags": ["magic"],
+   "depth": 4,
+   "dmg": 0,
+   "armour": 0,
+   "dex_mod": 0,
+   "int_mod": -2,
+   "str_mod": 3
+ },
+ {
+   "name": "Halberd",
+   "item_type": "weapon",
+   "tags": ["slash","heavy","reach"],
+   "depth": 4,
+   "dmg": 5,
+   "crit_chance": 0,
+   "armour": 0
+ },
+ {
+   "name": "Novitiate Staff",
+   "item_type": "weapon",
+   "tags": ["blunt"],
+   "depth": 3,
+   "dmg": 1,
+   "crit_chance": 0,
+   "armour": 0,
+   "int_mod": 1
+ },
+ {
+   "name": "Acolyte Staff",
+   "item_type": "weapon",
+   "tags": ["blunt"],
+   "depth": 4,
+   "dmg": 2,
+   "crit_chance": 0,
+   "armour": 0,
+   "int_mod": 2
+ },
+ {
+   "name": "Preist Staff",
+   "item_type": "weapon",
+   "tags": ["blunt","holy"],
+   "depth": 5,
+   "dmg": 2,
+   "crit_chance": 0,
+   "armour": 0,
+   "int_mod": 4
+ },
+ {
+   "name": "Whip",
+   "item_type": "weapon",
+   "tags": ["slash"],
+   "depth": 2,
+   "dmg": 2,
+   "crit_chance": 5,
+   "armour": 0,
+   "dex_mod": 1
+ },
+ {
+   "name": "Barbed Whip",
+   "item_type": "weapon",
+   "tags": ["slash","bleed","evil"],
+   "depth": 4,
+   "dmg": 4,
+   "crit_chance": 10,
+   "armour": 0,
+   "dex_mod": 1
+ },
+ {
+   "name": "Healing Salve",
+   "item_type": "utility",
+   "tags": ["heal"],
+   "depth": 1,
+   "dmg": 5,
+   "armour": 0
+ },
+ {
+   "name": "Blessed Salve",
+   "item_type": "utility",
+   "tags": ["heal"],
+   "depth": 3,
+   "dmg": 15,
+   "armour": 0
+ },
+ {
+   "name": "Holy Salve",
+   "item_type": "utility",
+   "tags": ["heal"],
+   "depth": 5,
+   "dmg": 25,
+   "armour": 0
+ }
+]
+}
